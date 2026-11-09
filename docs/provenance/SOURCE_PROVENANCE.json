@@ -1,0 +1,37 @@
+{
+  "description": "Historical source-file SHA-256 values recorded before release documentation and path portability adjustments. Published results were computed with these source versions.",
+  "source_sha256_before_release": {
+    "code/stage1/b3db_evidence_sensitivity/analyze_b3db_evidence_sensitivity.py": "ccc2b92a564d16f58e186d682510bccf4ce3c4842577a3245680c90652dacdb4",
+    "code/stage1/conflict_case_analysis/analyze_15_conflict_cases.py": "9e1613b3d3b2967491729a30b571553b3297f2d54264e50672fe8108e99021c8",
+    "code/stage1/data_preparation/prepare_consensus_from_raw.py": "9cb24c26773d04247618dae32cabb5728ca952bbccf4fce9e068b3f7fd1e7b95",
+    "code/stage1/data_preparation/prepare_ncats_audit_from_raw.py": "fcbe17d27c9e1faad458f15c9e05411c5af7a59d7a028ddbbab939376b610085",
+    "code/stage1/data_preparation/stage5_consensus.py": "0e5dda6a9624312cbf4540caa6d3c7b3049cc2cb91917e159a31fc868014294f",
+    "code/stage1/data_preparation/stage7_main.py": "737c843ef48da1b7bf86703d50fe7546189a697a61edb5990df7811cab06aad6",
+    "code/stage1/hard_label_audit/stage7_multiview_hardlabel.py": "df450a7581541a82774a60375a3c6787d0d6930b5b72c430044be8f7736cc71d",
+    "code/stage2/fit_corrected_targets.py": "01e335eabe1b04bfd89bc9dc21964d87cadd060ae41b6f770e5c50b9a702ebaa",
+    "code/stage3/legacy_gine_cpu.py": "b7762da3acf49b2a6c1321e2e94fdf5feda27fe5470deb7f1cd8a6d22e2651aa",
+    "code/stage3/legacy_scaffold_split.py": "d7533b5b8f8024aeea741ed140bd7d395ef9b8aec085f122b39beb17dcea6495",
+    "code/stage3/stage3.py": "a71a7a3c69e272a13a3eb57aaaec34bbd4d3198fc69e3c84d880191a53211208",
+    "code/stage4/finalize.py": "1103cd9e53c39c553a0439d616e2a9a0e42aeb88619b9d162ed0978cacc60590",
+    "code/stage5/chemspace.py": "9aa580d0c718ffd674c7a5975b5927b8fefa5d2b2f75f5e409a1107fe13bd66f",
+    "code/validation/eval_audit.py": "21fcb744acc044a081d9bcebf8259c8dbaddb4e2c8ded178e897e7ff735f6ba7"
+  },
+  "stage3_report_source_sha256": {
+    "stage3.py": "a71a7a3c69e272a13a3eb57aaaec34bbd4d3198fc69e3c84d880191a53211208",
+    "legacy_gine_cpu.py": "b7762da3acf49b2a6c1321e2e94fdf5feda27fe5470deb7f1cd8a6d22e2651aa"
+  },
+  "release_source_sha256": {
+    "code/stage1/b3db_evidence_sensitivity/analyze_b3db_evidence_sensitivity.py": "b9939f4baedf5e247df9e9629f5f2df8c938747fa5a7b985946e201bbfa54760",
+    "code/stage1/conflict_case_analysis/analyze_15_conflict_cases.py": "b2ebc490c90efe48eccfba25d53dd9f4af25d5f3d1780a43ed0ddd586bedbedb",
+    "code/stage1/data_preparation/prepare_consensus_from_raw.py": "126836bc5c53e34fd501217eb9449f4ff1d89ddf06293606296202b8952cba67",
+    "code/stage1/data_preparation/prepare_ncats_audit_from_raw.py": "a9732c06edbf35b84a2ffdbf30dbff869b652205deb14009efd3fc6348127e4e",
+    "code/stage1/hard_label_audit/stage7_multiview_hardlabel.py": "3e79b7e3bfbd1ef36d98db12969d71af334b549bf48151380fe3acf0e8dba1c8",
+    "code/stage2/fit_corrected_targets.py": "e972af18d6bdbc328961344a140353b6eb40494be4ebc6ff2d6dee9149c692a9",
+    "code/stage3/legacy_gine_cpu.py": "4c673f7677b65632b32fea4aa51de7485882705ef7682459692f360831b738ca",
+    "code/stage3/legacy_scaffold_split.py": "deeb099283bf797782fd206a95a362b646bc0749cb187de22c878aca83fa13dc",
+    "code/stage3/stage3.py": "18bd23851447e1b44a75618f69ea7ed8a92ca568a267818c2b2eb396ec00bee7",
+    "code/stage4/finalize.py": "261b1a7d51b81495253cca406a61321828e0eee682046eb8bdf49fde78746a7f",
+    "code/stage5/chemspace.py": "83b420e4f65f98bf8002c5a61df693721adf715e7ebf996805c810218263b87c",
+    "code/validation/eval_audit.py": "b48780cc6129df065fd04b025d32c5df328964bd8dc2fba285007b3da40cd552"
+  }
+}

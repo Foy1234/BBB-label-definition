@@ -1,0 +1,14 @@
+﻿manuscript_section,analysis,implementation,evidence_file
+Fig.1; Methods overview,Overall computational workflow,docs/ANALYSIS_WORKFLOW.md,README.md
+Fig.2; data partition,Data harmonization and evaluation-set identity audit,code/validation/eval_audit.py,results/audits/overlap_matrix.csv
+Stage I; Fig.3; Table 1,Eight hard-label schemes and three effective states,code/stage1/hard_label_audit/stage7_multiview_hardlabel.py,results/stage1/hard_label_audit/training_view_summary.csv
+Stage I; Fig.3; Table 2,Matched 15 mixed-class/control molecular pairs,code/stage1/conflict_case_analysis/analyze_15_conflict_cases.py,results/stage1/conflict_case_analysis/matched_pair_sensitivity_summary.csv
+Stage II; Fig.4,"Hard, Vote, Integrated, Smooth and lambda targets",code/stage2/fit_corrected_targets.py,data/derived/stage2/stage2_target_vectors_common1157.csv
+Stage II; Fig.4,XGBoost/GINE training and conditional permutation,code/stage3/stage3.py,results/stage3/analysis/conditional_permutation_summary.csv
+Stage II; Fig.4,Molecular ranks and candidate-set changes,code/stage4/finalize.py,results/stage4/analysis/main_rank_topk_pairwise.csv
+Fig.5,Cross-encoder and chemical-space sensitivity,code/stage5/chemspace.py,results/stage5/encoder_concordance_target_sensitivity.csv
+Fig.6; Table 3,Database evaluation and paired bootstrap effects,code/stage4/finalize.py,results/stage4/analysis/main_paired_bootstrap.csv
+Fig.6; Table 4,PAMPA raw ranking and score metrics,code/stage4/finalize.py,results/stage4/pampa/pampa_mean_seed_metrics.csv
+Fig.6,PAMPA cross-fitted Platt calibration,code/stage6/pampa_calibration.py,results/stage6/pampa_calibration/crossfit_summary_mean_sd.csv
+Supplement S10; Tables S16-S18,Full-InChIKey identity audit,code/audits/structure_identity/full_inchikey_audit.py,results/audits/structure_identity/mixed15_full_inchikey_summary.csv
+Supplement evidence audit,B3DB Vote/logBB raw evidence reconstruction,code/audits/evidence_reconstruction/run.py,results/audits/evidence_reconstruction/qc_report.json

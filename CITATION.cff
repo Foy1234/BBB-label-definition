@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the software and the associated manuscript when using these materials."
+title: "BBB Label Evidence Reproducibility Package"
+version: 1.0.0
+date-released: 2026-10-31
+license: MIT
+authors:
+  - family-names: Shen
+    given-names: Siying
+  - family-names: Guo
+    given-names: Junxiong
+  - family-names: Yang
+    given-names: Yongxia
+  - family-names: Zhou
+    given-names: Sujuan

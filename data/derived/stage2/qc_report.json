@@ -1,0 +1,221 @@
+{
+  "status": "PASS_TARGETS_READY_FOR_INDEPENDENT_REVIEW",
+  "guard": {
+    "consensus_sha256": "51d09eea4e6a1659ea7820a93f5f63880161645c3bab8f7f9f93007bdbc9849a",
+    "labels_sha256": "ea6b31d500e1f04384952a096fabdf4e9ce3e0bd9533587442c542946f432c89",
+    "n_train_pool": 1234,
+    "n_common_train": 1157,
+    "n_test": 291
+  },
+  "parameter_boundary_warnings": [],
+  "fitting_only_common_1157": true,
+  "old_target_preserved_in_input": true,
+  "common_train_no_test_evidence": true,
+  "frozen_vote_provenance": {
+    "source": "frozen label_B from legacy stage7_main.py vote_soft_label_map() on original B3DB TSV",
+    "source_file_sha256_verified": true,
+    "b3db_consensus_raw_labels_are_distinct_states_NOT_full_rows": true,
+    "n_frozen_vote_nonbinary": 8,
+    "n_frozen_vote_vs_deduplicated_states_disagree": 3,
+    "max_abs_difference_vs_deduplicated_states": 0.16666666666666669,
+    "n_support_contradictions": 0,
+    "raw_B3DB_TSV_independently_rechecked": false,
+    "note": "Actual raw classification record counts cannot be inferred from frozen consensus b3db_raw_labels. No duplicate-row weight is used."
+  },
+  "coverage": {
+    "b3db_n": 1157,
+    "bbbp_n": 18,
+    "logbb_n": 186,
+    "b3db_distinct_state_n_gt1": 8,
+    "b3db_conflict_n": 8,
+    "b3db_distinct_state_entries": 1165,
+    "logbb_effective_rows": 200,
+    "standardization_logbb_mean": -0.3063440860215054,
+    "standardization_logbb_sd": 0.8382555618551861
+  },
+  "n_train_common": 1157,
+  "order_invariance": {
+    "input_aggregate_max_abs_diff": 0.0,
+    "refit_target_max_abs_diff": 0.0,
+    "refit_converged": true,
+    "pass": true
+  },
+  "gradient_check": {
+    "pass": true,
+    "max_abs_error": 5.852941775685849e-08,
+    "checks": [
+      {
+        "kind": "latent_gradient",
+        "row_index": 0,
+        "analytic": 0.013131396964925768,
+        "numeric": 0.01313139819103526,
+        "abs_error": 1.2261094917143112e-09
+      },
+      {
+        "kind": "latent_hessian",
+        "row_index": 0,
+        "analytic": 0.23154600439077422,
+        "numeric": 0.23154600438946013,
+        "abs_error": 1.314087727521951e-12
+      },
+      {
+        "kind": "latent_gradient",
+        "row_index": 11,
+        "analytic": 1.9548189671268212,
+        "numeric": 1.9548189698070928,
+        "abs_error": 2.6802715602514127e-09
+      },
+      {
+        "kind": "latent_hessian",
+        "row_index": 11,
+        "analytic": 1.5225064792541834,
+        "numeric": 1.5225064792789842,
+        "abs_error": 2.4800828057891522e-11
+      },
+      {
+        "kind": "latent_gradient",
+        "row_index": 88,
+        "analytic": 2.0824118661459803,
+        "numeric": 2.082411924675398,
+        "abs_error": 5.852941775685849e-08
+      },
+      {
+        "kind": "latent_hessian",
+        "row_index": 88,
+        "analytic": 1.5661526148013243,
+        "numeric": 1.566152614795868,
+        "abs_error": 5.456302076822794e-12
+      },
+      {
+        "kind": "global_gradient",
+        "parameter": "delta",
+        "analytic": -0.05569386477438168,
+        "numeric": -0.05569386019033118,
+        "abs_error": 4.584050500300307e-09
+      },
+      {
+        "kind": "global_gradient",
+        "parameter": "a",
+        "analytic": 338.3996381994203,
+        "numeric": 338.39963820980756,
+        "abs_error": 1.0387282145529753e-08
+      },
+      {
+        "kind": "global_gradient",
+        "parameter": "b",
+        "analytic": 231.93234103541073,
+        "numeric": 231.93234102336646,
+        "abs_error": 1.2044267805322306e-08
+      },
+      {
+        "kind": "global_gradient",
+        "parameter": "log_sigma",
+        "analytic": -184.63632509281325,
+        "numeric": -184.6363250876948,
+        "abs_error": 5.118465651321458e-09
+      }
+    ]
+  },
+  "fit_diagnostics": [
+    {
+      "lambda": 0.01,
+      "iterations": 64,
+      "objective": 126.30557201728625,
+      "projected_grad_max": 7.587275088871692e-06,
+      "max_latent_gradient": 8.196324702280933e-08,
+      "delta": -0.6025747113229774,
+      "a": 0.3317706981745555,
+      "b": -0.8081614044878297,
+      "sigma_standardized": 1.0,
+      "converged": true
+    },
+    {
+      "lambda": 0.1,
+      "iterations": 50,
+      "objective": 384.2833045314155,
+      "projected_grad_max": 1.997266192185765e-05,
+      "max_latent_gradient": 4.898000903752475e-07,
+      "delta": 0.1427650843333914,
+      "a": 0.802342168445964,
+      "b": -0.8183085207397206,
+      "sigma_standardized": 1.0,
+      "converged": true
+    },
+    {
+      "lambda": 1.0,
+      "iterations": 81,
+      "objective": 702.7838735552925,
+      "projected_grad_max": 3.4829964815630277e-06,
+      "max_latent_gradient": 6.998980692229928e-07,
+      "delta": 0.5385892401677296,
+      "a": 3.3854454669996215,
+      "b": -0.8102343534481561,
+      "sigma_standardized": 1.0,
+      "converged": true
+    }
+  ],
+  "permutation_diagnostics": {
+    "strata": [
+      {
+        "stratum": "H0_BBBP0_LOGBB0",
+        "n": 692,
+        "n_unique_values": 3,
+        "potentially_swappable": true
+      },
+      {
+        "stratum": "H0_BBBP0_LOGBB1",
+        "n": 35,
+        "n_unique_values": 22,
+        "potentially_swappable": true
+      },
+      {
+        "stratum": "H0_BBBP1_LOGBB0",
+        "n": 3,
+        "n_unique_values": 1,
+        "potentially_swappable": false
+      },
+      {
+        "stratum": "H0_BBBP1_LOGBB1",
+        "n": 2,
+        "n_unique_values": 2,
+        "potentially_swappable": true
+      },
+      {
+        "stratum": "H1_BBBP0_LOGBB0",
+        "n": 274,
+        "n_unique_values": 2,
+        "potentially_swappable": true
+      },
+      {
+        "stratum": "H1_BBBP0_LOGBB1",
+        "n": 138,
+        "n_unique_values": 100,
+        "potentially_swappable": true
+      },
+      {
+        "stratum": "H1_BBBP1_LOGBB0",
+        "n": 2,
+        "n_unique_values": 1,
+        "potentially_swappable": false
+      },
+      {
+        "stratum": "H1_BBBP1_LOGBB1",
+        "n": 11,
+        "n_unique_values": 11,
+        "potentially_swappable": true
+      }
+    ],
+    "n_movable": 1152,
+    "min_n_changed": 184,
+    "max_n_changed": 196,
+    "mean_n_changed": 191.3838383838384,
+    "n_permutations": 99,
+    "seed": 20261011
+  },
+  "class_conditional_means": {
+    "0": 0.1704192982466774,
+    "1": 0.8233466954436118
+  },
+  "permutations_do_not_modify_frozen_inputs": true,
+  "details": "Target fitting only. No XGB/GINE, no performance or ranking claims can be drawn from this run."
+}

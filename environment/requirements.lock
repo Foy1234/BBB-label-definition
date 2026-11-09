@@ -1,0 +1,15 @@
+# Direct project dependencies verified against the supplied original AutoDL pip freeze.
+# Target: Python 3.12.3, Ubuntu 22.04, CUDA 12.8, x86_64.
+# Torch CUDA 12.8 wheel: pip install --index-url https://download.pytorch.org/whl/cu128 'torch==2.8.0+cu128'
+# Then install this requirements file (torch is installed separately).
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.0
+rdkit==2026.3.5
+xgboost==3.2.0
+torch-geometric==2.8.0.post1
+matplotlib==3.10.5
+networkx==3.5
+joblib==1.6.0
+PyYAML==6.0.2

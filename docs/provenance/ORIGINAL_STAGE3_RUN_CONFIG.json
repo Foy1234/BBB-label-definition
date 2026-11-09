@@ -1,0 +1,79 @@
+{
+  "protocol": "BBB_Stage3_controlled_v1",
+  "source": {
+    "consensus": "/root/autodl-tmp/BBB_Molecular_Diversity_AutoDL_Reproduction_v1/data/frozen/consensus_dataset.csv",
+    "labels": "/root/autodl-tmp/BBB_Molecular_Diversity_AutoDL_Reproduction_v1/data/frozen/labels_abc.csv",
+    "stage2": "/root/autodl-tmp/BBB_AutoDL_Stage2_Targets_v2/results/stage2_targets_20261011_223524",
+    "hashes": {
+      "stage2_target_vectors_common1157.csv": "723f719cd33ec5969b11e29c4d93893c165c546b6ce2ca18d96e27cef328d8d0",
+      "P_99_permutation_targets_common1157.csv": "bb69184f65e501ba940632273c8032d1c0933973fce4245f52f67e05c6950c23",
+      "labels_abc_corrected_STAGE2_ONLY.csv": "4e59d50d93cfee1e646da2f8a50ce11223738d2b178f030f31815dbfd825d597",
+      "consensus": "51d09eea4e6a1659ea7820a93f5f63880161645c3bab8f7f9f93007bdbc9849a",
+      "labels": "ea6b31d500e1f04384952a096fabdf4e9ce3e0bd9533587442c542946f432c89"
+    }
+  },
+  "xgb_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "gine_seeds": [
+    42,
+    52,
+    62,
+    72,
+    82,
+    92,
+    102,
+    112,
+    122,
+    132
+  ],
+  "perm_seeds": {
+    "xgb": [
+      42,
+      52,
+      61
+    ],
+    "gine": [
+      42,
+      52,
+      62
+    ]
+  },
+  "target_names": [
+    "H",
+    "V",
+    "I",
+    "S",
+    "I_lambda_0.01",
+    "I_lambda_1.0"
+  ],
+  "params_xgb": {
+    "max_depth": 5,
+    "learning_rate": 0.03,
+    "n_estimators": 300,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "env_python": "3.12.3",
+  "stage3_source_sha256": "a71a7a3c69e272a13a3eb57aaaec34bbd4d3198fc69e3c84d880191a53211208",
+  "gine_legacy_sha256": "b7762da3acf49b2a6c1321e2e94fdf5feda27fe5470deb7f1cd8a6d22e2651aa"
+}
